@@ -1,4 +1,4 @@
 
-add_executable(glut-template glut-template.cpp)
-target_link_libraries(glut-template ${LIBS})
+add_executable(polygon-test polygon-test.cpp)
+target_link_libraries(polygon-test ${LIBS})
 
