@@ -2,7 +2,7 @@
 #include <stdio.h> // printf
 #include <stdlib.h> // exit
 #include <string.h> // strlen
-#include <math.h> // strlen
+#include <math.h> // sqrt
 
 #if defined __APPLE_CC__
 #include <GLUT/glut.h>
@@ -441,7 +441,7 @@ void glutMouseCallback(int button, int state, int x, int y)
 {
     if (state == GLUT_UP) {
         if (button == GLUT_LEFT_BUTTON) {
-                polygon_add_vertex(x, y);
+            polygon_add_vertex(x, y);
         }
         else if (button == GLUT_RIGHT_BUTTON) {
             polygon_undo_add();
