@@ -7,3 +7,4 @@ The drawing controls are a bit awkward:
 - Right mouse button removes previously added vertex.
 - Space resets polygon.
 - ESC exits polygon drawing mode and saves current polygon.
+- '=' and '-' cycle rendering modes.
