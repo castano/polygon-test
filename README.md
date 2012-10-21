@@ -1,3 +1,9 @@
-# glut-template
+# polygon-test
 
-Small template to quickly build OpenGL tests.
+Quick test to experiment with different polygon tessellation strategies.
+
+The drawing controls are a bit awkward:
+- Left mouse button adds a new vertex.
+- Right mouse button removes previously added vertex.
+- Space resets polygon.
+- ESC exits polygon drawing mode and saves current polygon.
